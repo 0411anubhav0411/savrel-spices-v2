@@ -51,7 +51,7 @@ export default function Founder() {
                         </Reveal>
 
                         <Reveal delay={0.08} className="mt-10">
-                            <h3 className="font-display text-2xl font-bold text-gray-900">His story</h3>
+                            <h3 className="font-display text-2xl font-bold text-gray-900">History</h3>
                             <p className="mt-4 text-base text-gray-600 leading-relaxed">
                                 Rohit grew up around the spice trade and saw the same pattern everywhere: a great
                                 product at the source, and a tired, adulterated version of it on the shelf. The gap
