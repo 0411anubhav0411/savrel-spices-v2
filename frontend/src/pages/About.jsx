@@ -11,7 +11,7 @@ const VALUES = [
 ];
 
 const TIMELINE = [
-    ["The Beginning", "Savrel Natural Spices is founded by Rohit Jha with a single conviction — Indian kitchens deserve spices that taste the way they smell at the mandi."],
+    ["The Beginning", "Savrel Spices is founded by Rohit Jha with a single conviction — Indian kitchens deserve spices that taste the way they smell at the mandi."],
     ["The Facility", "A dedicated processing and packing unit is set up at UPSIDC, M.G. Road, Uttar Pradesh with cleaning, grinding and packing lines under one roof."],
     ["Certification", "The unit earns ISO 9001:2015 certification and FSSAI licensing, formalising the hygiene standards the factory was built on."],
     ["Today", "A 20+ product range across whole spices, powders and masala blends, shipped to wholesalers, retailers and private-label partners across India."],
@@ -23,7 +23,7 @@ export default function About() {
             <PageHero
                 eyebrow="About Us"
                 title="A spice factory with one job — honest flavour"
-                sub="Savrel Natural Spices manufactures premium Indian whole spices, powders and masala blends for bulk, wholesale and private-label supply across India."
+                sub="Savrel Spices manufactures premium Indian whole spices, powders and masala blends for bulk, wholesale and private-label supply across India."
             />
 
             <section className="bg-white py-16 sm:py-20">
