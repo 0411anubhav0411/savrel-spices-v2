@@ -57,7 +57,7 @@ export default function Contact() {
                                 </span>
                                 <h2 className="mt-5 font-display text-2xl font-bold">Factory & Office</h2>
                                 <p className="mt-4 text-base text-gray-300 leading-relaxed" data-testid="contact-address">
-                                    Savrel Natural Spices<br />
+                                    Savrel Spices<br />
                                     {BRAND.address}
                                 </p>
                                 <a
