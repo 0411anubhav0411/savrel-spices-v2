@@ -87,7 +87,7 @@ export default function Home() {
                         transition={{ delay: 0.3, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                         className="relative">
                         <motion.div style={{ y: imgY }} className="rounded-2xl overflow-hidden border border-gray-200 shadow-xl shadow-red-900/5">
-                            <img src="/assets/banner.webp" alt="Savrel Natural spice collection — Red Chilli, Turmeric, Bay Leaves, Black Pepper, Cloves"
+                            <img src="/assets/banner.webp" alt="Savrel  Spices collection — Red Chilli, Turmeric, Bay Leaves, Black Pepper, Cloves"
                                 className="w-full h-auto" data-testid="hero-banner-image" />
                         </motion.div>
                         <div className="absolute -bottom-5 -left-4 sm:-left-8 bg-white rounded-xl border border-gray-200 shadow-lg px-5 py-4"
@@ -175,7 +175,7 @@ export default function Home() {
             <section className="bg-[#FDFBF8] border-y border-gray-100 py-16 sm:py-24">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <Reveal className="max-w-2xl">
-                        <span className="text-xs font-semibold tracking-[0.18em] uppercase text-[#C8102E]">Why Savrel</span>
+                        <span className="text-xs font-semibold tracking-[0.18em] uppercase text-[#C8102E]">Why Savrel?</span>
                         <h2 className="mt-3 font-display text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 leading-snug">
                             A factory built around consistency
                         </h2>
