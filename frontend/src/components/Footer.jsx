@@ -8,7 +8,7 @@ export const Footer = () => (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
                 <div>
                     <div className="flex items-center gap-3">
-                        <img src="/assets/logo.png" alt="Savrel Natural" className="h-12 w-auto bg-white rounded-lg px-2 py-1" />
+                        <img src="/assets/logo.png" alt="Savrel Spices" className="h-12 w-auto bg-white rounded-lg px-2 py-1" />
                     </div>
                     <p className="mt-2 text-sm italic text-[#E69B00]">{BRAND.tagline}</p>
                     <p className="mt-4 text-sm leading-relaxed text-gray-400">
@@ -49,7 +49,7 @@ export const Footer = () => (
         </div>
         <div className="border-t border-white/10">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-gray-500">
-                <span>© {new Date().getFullYear()} Savrel Natural Spices. All rights reserved.</span>
+                <span>© {new Date().getFullYear()} Savrel Spices. All rights reserved.</span>
                 <span>ISO 9001:2015 Certified · FSSAI Licensed · 100% Natural</span>
             </div>
         </div>
