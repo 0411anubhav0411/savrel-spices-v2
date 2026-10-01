@@ -1,0 +1,97 @@
+{
+  "project_name": "Savrel Natural Spices",
+  "app_type": "marketing_site",
+  "archetype": "CLASSIC FMCG & ORGANIC TRUST (Catch Masala Inspired)",
+  "design_philosophy": "White base background everywhere, solid corporate trust, clean FMCG aesthetic with crisp grid lines, warm spice accent highlights, legible typography, and structured B2B & retail product storytelling. Motion is restrained, purpose-driven, and subtle.",
+  "brand_identity": {
+    "name": "Savrel Natural Spices",
+    "tagline": "Masale Jo Swaad Banaye",
+    "description": "Manufacturer of premium Indian spices, including whole spices, powders, and masala blends. Hygienically processed and packed for bulk, wholesale, and private-label supply. Quality ingredients, consistent taste, and timely delivery across India. Contact us for samples and bulk orders.",
+    "founder_name": "Rohit Jha",
+    "contact": {
+      "phone": "+91 9810331067",
+      "email": "savrelnaturalspices@gmail.com",
+      "address": "G-418,419, UPSIDC, M.G. Road, Uttar Pradesh 201015"
+    },
+    "logo_spec": "Red and deep orange oval emblem with white bold serif typography 'Savrel Natural' and subtle yellow curve underline with tagline 'Masale Jo Swaad Banaye'. Located prominently in top-left header."
+  },
+  "pages": [
+    { "id": "home", "title": "Home", "route": "/" },
+    { "id": "about", "title": "About Us", "route": "/about" },
+    { "id": "founder", "title": "Our Founder", "route": "/founder" },
+    { "id": "team", "title": "Our Team", "route": "/team" },
+    { "id": "products", "title": "Products Overview", "route": "/products" },
+    { "id": "whole-spices", "title": "Whole Spices", "route": "/products/whole-spices" },
+    { "id": "spice-powders", "title": "Spice Powders", "route": "/products/spice-powders" },
+    { "id": "masala-blends", "title": "Masala Blends", "route": "/products/masala-blends" },
+    { "id": "private-label", "title": "Private Label & Bulk Supply", "route": "/private-label" },
+    { "id": "quality", "title": "Quality & Certifications", "route": "/quality" },
+    { "id": "contact", "title": "Contact Us", "route": "/contact" }
+  ],
+  "colors": {
+    "background": "#FFFFFF",
+    "surface": "#FAFAFA",
+    "card_bg": "#FFFFFF",
+    "primary_brand": "#C8102E",
+    "primary_hover": "#A50B24",
+    "accent_orange": "#D9531E",
+    "accent_gold": "#E69B00",
+    "dark_text": "#1F2937",
+    "muted_text": "#4B5563",
+    "light_border": "#E5E7EB",
+    "subtle_bg_gray": "#F3F4F6",
+    "badge_bg": "#FEF2F2",
+    "badge_text": "#991B1B"
+  },
+  "typography": {
+    "heading_font": "Merriweather, Playfair Display, Georgia, serif",
+    "body_font": "Work Sans, Outfit, system-ui, sans-serif",
+    "h1_hero": "text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-gray-900 leading-tight",
+    "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 leading-snug",
+    "h3_card": "text-lg sm:text-xl font-bold text-gray-900",
+    "body_text": "text-base text-gray-700 leading-relaxed",
+    "caption": "text-sm text-gray-500"
+  },
+  "layout_and_spacing": {
+    "header_style": "Sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm",
+    "container_padding": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "section_spacing": "py-12 sm:py-16 lg:py-20",
+    "grid_gap": "gap-6 sm:gap-8",
+    "card_style": "bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-all p-6",
+    "b2b_banner": "bg-gradient-to-r from-red-700 via-red-600 to-amber-700 text-white rounded-2xl p-8 sm:p-12 shadow-lg"
+  },
+  "motion": {
+    "rule": "Subtle reveals and smooth tabs. NO floaty parallax or distracting animations.",
+    "hover": "transition-transform duration-200 hover:-translate-y-1 hover:shadow-md",
+    "page_transition": "Simple opacity fade 150ms"
+  },
+  "image_urls": {
+    "brand_hero_banner": "https://customer-assets-wrfwihn1.emergentagent.net/job_8d29fad4-f356-4417-868c-9b303f29b219/artifacts/h5vkikwq_Savrel%20Natural%20Spice%20Collection.webp",
+    "product_black_pepper": "https://customer-assets-wrfwihn1.emergentagent.net/job_8d29fad4-f356-4417-868c-9b303f29b219/artifacts/m56v5rh9_black-pepper-powder.jpeg",
+    "product_cloves": "https://customer-assets-wrfwihn1.emergentagent.net/job_8d29fad4-f356-4417-868c-9b303f29b219/artifacts/bczw8ydv_whatsapp-image-2024-04-30-at-16-25-06-1.jpeg",
+    "product_turmeric": "https://customer-assets-wrfwihn1.emergentagent.net/job_8d29fad4-f356-4417-868c-9b303f29b219/artifacts/tl1ptx19_wild-turmeric-powder-500x500.webp",
+    "product_red_chilli": "https://customer-assets-wrfwihn1.emergentagent.net/job_8d29fad4-f356-4417-868c-9b303f29b219/artifacts/6cu0ebnl_red-chilli-powder-500x500.webp",
+    "raw_spices_flatlay": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "cooked_curry_dish": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "warehouse_processing": "https://images.unsplash.com/photo-1651525670114-2b8117390b28?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "factory_facility": "https://images.unsplash.com/photo-1553413077-190dd305871c?crop=entropy&cs=srgb&fm=jpg&q=85"
+  },
+  "key_features": [
+    "11 full pages with top navbar navigation and breadcrumbs",
+    "B2B Bulk Sample Request Modal / Sticky Enquiry Form",
+    "Product Catalog filtering by category (Whole Spices, Powders, Masala Blends)",
+    "Packaging & Specifications table per spice product",
+    "Interactive Private Labeling process flow diagram",
+    "Quality certificates (FSSAI, ISO 9001:2015, Organic) showcase with downloadable spec sheets simulator",
+    "Founder profile section highlighting Rohit Jha's vision and manufacturing standard",
+    "Address block with map-style visualization and direct contact details"
+  ],
+  "instructions_to_main_agent": [
+    "Ensure background is clean WHITE across all pages and sections as requested.",
+    "Place the red/orange oval brand logo at top left with tagline 'Masale Jo Swaad Banaye'.",
+    "Use exact customer product images for Black Pepper, Cloves, Turmeric, Red Chilli, and Hero banner.",
+    "Implement clear navigation bar containing all 11 page links (or grouped dropdown for Products).",
+    "Add data-testid attributes to all buttons, input fields, tabs, and interactive components.",
+    "Ensure responsive support for desktop, tablet, and mobile views."
+  ]
+}
