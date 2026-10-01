@@ -7,7 +7,7 @@ const TEAM = [
     { initials: "RJ", name: "Rohit Jha", role: "Founder & Managing Director", bio: "Leads sourcing and product standards. Personally approves the reference sample every batch is measured against." },
     { initials: "AV", name: "Anita Verma", role: "Head — Quality & Processing", bio: "Runs the QC lab and hygiene programme. Owns batch testing, metal detection and ISO 9001:2015 compliance." },
     { initials: "SK", name: "Sandeep Kumar", role: "Head — Procurement", bio: "Manages origin buying across growing regions, grading incoming lots for moisture, aroma and purity." },
-    { initials: "PM", name: "Pooja Mishra", role: "Head — Sales & Partnerships", bio: "Your first call for samples, pricing, private-label projects and distributor onboarding across India." },
+    { initials: "PJ", name: "Pooja Jha", role: "Head — Sales & Partnerships", bio: "Your first call for samples, pricing, private-label projects and distributor onboarding across India." },
 ];
 
 export default function Team() {
