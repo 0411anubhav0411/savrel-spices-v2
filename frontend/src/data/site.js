@@ -1,0 +1,146 @@
+export const BRAND = {
+    name: "Savrel Natural Spices",
+    tagline: "Masale Jo Swaad Banaye",
+    description:
+        "Manufacturer of premium Indian spices, including whole spices, powders, and masala blends. Hygienically processed and packed for bulk, wholesale, and private-label supply. Quality ingredients, consistent taste, and timely delivery across India.",
+    phone: "+91 98103 31067",
+    phoneHref: "tel:+919810331067",
+    email: "savrelnaturalspices@gmail.com",
+    address: "G-418, 419, UPSIDC, M.G. Road, Uttar Pradesh 201015",
+    founder: "Rohit Jha",
+};
+
+export const CATEGORIES = [
+    {
+        slug: "whole-spices",
+        name: "Whole Spices",
+        hindi: "Sabut Masale",
+        blurb: "Hand-sorted, sun-dried whole spices cleaned and graded at our facility — full aroma, zero adulteration.",
+        image: "/assets/cloves.jpeg",
+    },
+    {
+        slug: "spice-powders",
+        name: "Spice Powders",
+        hindi: "Masala Powders",
+        blurb: "Low-temperature ground powders that lock in natural oils, colour and pungency — batch after batch.",
+        image: "/assets/turmeric.webp",
+    },
+    {
+        slug: "masala-blends",
+        name: "Masala Blends",
+        hindi: "Mishrit Masale",
+        blurb: "Signature recipes blended in precise ratios for a consistent taste your customers can rely on.",
+        image: "/assets/red-chilli.webp",
+    },
+];
+
+export const CATEGORY_SPECS = {
+    "whole-spices": [
+        ["Cleaning", "Destoned, air-classified and hand-sorted"],
+        ["Moisture", "Controlled to FSSAI limits per spice"],
+        ["Adulteration", "Nil — whole form, no fillers"],
+        ["Shelf life", "12 months in sealed food-grade packs"],
+    ],
+    "spice-powders": [
+        ["Grinding", "Low-temperature milling to retain volatile oils"],
+        ["Mesh size", "Consistent fine grind, sieved per batch"],
+        ["Colour & pungency", "Tested against retained reference sample"],
+        ["Shelf life", "9–12 months in sealed food-grade packs"],
+    ],
+    "masala-blends": [
+        ["Recipe control", "Weighed to the gram, blended in batches"],
+        ["Consistency", "Every batch tasted against the master blend"],
+        ["Additives", "No artificial colour or flavour added"],
+        ["Shelf life", "9 months in sealed food-grade packs"],
+    ],
+};
+
+// img: real pack photography where available; bg: brand colour panel otherwise
+export const PRODUCTS = [
+    // Whole spices
+    { id: "black-pepper", name: "Black Pepper", hindi: "Kali Mirch", category: "whole-spices", image: "/assets/black-pepper.jpeg", packs: "50g · 100g · 500g · 25kg bulk",
+      desc: "Bold, high-piperine black pepper sourced from southern growing belts, sun-dried and garbled for uniform berry size. Sharp heat and a lingering woody aroma that holds up in cooking.",
+      uses: "Seasoning, marinades, spice blends, and table grinding for hotels and restaurants." },
+    { id: "cloves", name: "Cloves", hindi: "Laung", category: "whole-spices", image: "/assets/cloves.jpeg", packs: "50g · 100g · 500g · 25kg bulk",
+      desc: "Full-bodied long cloves with high volatile oil content, hand-sorted to remove stems and headless buds. Intensely aromatic — a little goes a long way.",
+      uses: "Biryani, pulao, garam masala, tea blends, and pickling." },
+    { id: "bay-leaves", name: "Bay Leaves", hindi: "Tej Patta", category: "whole-spices", image: "/assets/bay-leaves.png", packs: "50g · 100g · 250g · 10kg bulk",
+      desc: "Large, unbroken Indian bay leaves shade-dried to preserve their warm, cinnamon-like aroma. Sorted for size and packed flat to reach you intact.",
+      uses: "Curries, dals, biryanis, soups and slow-cooked gravies." },
+    { id: "green-cardamom", name: "Green Cardamom", hindi: "Hari Elaichi", category: "whole-spices", bg: "#5B7A3A", packs: "50g · 100g · 500g · 10kg bulk",
+      desc: "Plump 8mm+ green cardamom pods with deep colour and a sweet, camphor-free aroma. Graded by size and packed with care to protect the delicate husk.",
+      uses: "Desserts, kheer, chai, premium masala blends and gifting packs." },
+    { id: "cumin-seeds", name: "Cumin Seeds", hindi: "Jeera", category: "whole-spices", bg: "#8A5A2B", packs: "100g · 500g · 1kg · 30kg bulk",
+      desc: "Bold cumin with high essential oil content, machine-cleaned and gravity-separated for purity. Toasts evenly and releases a warm, earthy aroma.",
+      uses: "Tadka, curries, raita, jeera rice and spice powder production." },
+    { id: "coriander-seeds", name: "Coriander Seeds", hindi: "Sabut Dhania", category: "whole-spices", bg: "#A98A2C", packs: "100g · 500g · 1kg · 30kg bulk",
+      desc: "Round, golden-green coriander seeds with a bright citrus note. Destoned and sieved to a uniform grade, ideal for both whole use and milling.",
+      uses: "Curry bases, pickles, dhania powder and masala manufacturing." },
+    { id: "cinnamon", name: "Cinnamon Sticks", hindi: "Dalchini", category: "whole-spices", bg: "#7A4A21", packs: "50g · 100g · 500g · 10kg bulk",
+      desc: "True cassia cinnamon quills with a sweet, woody warmth. Cut to uniform lengths, cleaned and packed to keep the bark oils intact.",
+      uses: "Biryani, pulao, desserts, tea and bakery applications." },
+    { id: "mustard-seeds", name: "Mustard Seeds", hindi: "Rai / Sarson", category: "whole-spices", bg: "#8F6B12", packs: "100g · 500g · 1kg · 30kg bulk",
+      desc: "Bold black mustard seeds with sharp, clean pungency. Sieved to remove husk and grit, they pop evenly in hot oil every time.",
+      uses: "Tadka, pickles, curry pastes and South Indian cooking." },
+    { id: "fennel-seeds", name: "Fennel Seeds", hindi: "Saunf", category: "whole-spices", bg: "#5F7E33", packs: "100g · 500g · 1kg · 25kg bulk",
+      desc: "Sweet, green fennel with high anethole content for that signature cooling sweetness. Bright colour, sorted for size.",
+      uses: "Mukhwas, Kashmiri and Bengali cooking, bakery and tea blends." },
+    { id: "dry-red-chilli", name: "Dry Red Chilli", hindi: "Sabut Lal Mirch", category: "whole-spices", bg: "#A31621", packs: "100g · 500g · 1kg · 25kg bulk",
+      desc: "Deep-red whole chillies with stem-on freshness, graded for colour and heat. Sun-dried and cleaned without any artificial colour enhancement.",
+      uses: "Tadka, chilli flakes, pickles and grinding into chilli powder." },
+    // Powders
+    { id: "red-chilli-fine", name: "Red Chilli Fine", hindi: "Mirch Powder", category: "spice-powders", image: "/assets/red-chilli.webp", packs: "100g · 200g · 500g · 25kg bulk",
+      desc: "Vibrant red chilli powder ground at low temperature from stem-removed dry chillies. Consistent heat and brilliant natural colour — no added dye, ever.",
+      uses: "Everyday curries, tadka, marinades and snack seasoning." },
+    { id: "turmeric-powder", name: "Turmeric Powder", hindi: "Haldi", category: "spice-powders", image: "/assets/turmeric.webp", packs: "100g · 200g · 500g · 25kg bulk",
+      desc: "High-curcumin turmeric powder milled from select fingers, polished and ground in-house. Deep golden colour and earthy warmth in every spoon.",
+      uses: "Curries, dals, milk, pickles and food processing." },
+    { id: "coriander-powder", name: "Coriander Powder", hindi: "Dhania Powder", category: "spice-powders", bg: "#9C7C24", packs: "100g · 200g · 500g · 25kg bulk",
+      desc: "Fresh-milled coriander powder with a mild citrus backbone that thickens and balances gravies. Ground in small batches for freshness.",
+      uses: "Curry bases, sabzi, dals and masala blending." },
+    { id: "cumin-powder", name: "Cumin Powder", hindi: "Jeera Powder", category: "spice-powders", bg: "#7C5226", packs: "100g · 200g · 500g · 25kg bulk",
+      desc: "Roasted-note cumin powder with a warm, earthy depth. Low-temperature milling keeps the volatile oils — and the aroma — in the pack.",
+      uses: "Raita, chaas, chaat, curries and seasoning mixes." },
+    { id: "black-pepper-powder", name: "Black Pepper Powder", hindi: "Kali Mirch Powder", category: "spice-powders", bg: "#3E2C23", packs: "50g · 100g · 500g · 25kg bulk",
+      desc: "Coarse-fine black pepper powder with real bite — ground from the same high-piperine berries we sell whole. Sharp, fresh and aromatic.",
+      uses: "Soups, salads, marinades, eggs and Continental cooking." },
+    { id: "amchur-powder", name: "Dry Mango Powder", hindi: "Amchur", category: "spice-powders", bg: "#B97A0E", packs: "100g · 200g · 500g · 25kg bulk",
+      desc: "Tangy amchur made from sun-dried unripe mangoes, ground fine and sieved. Clean sourness without additives — the secret to great chaat.",
+      uses: "Chaat, chutneys, pakora batter, curries and snack seasoning." },
+    // Masala blends
+    { id: "garam-masala", name: "Garam Masala", hindi: "Garam Masala", category: "masala-blends", bg: "#6E3A12", packs: "50g · 100g · 200g · 25kg bulk",
+      desc: "Our signature warming blend — cardamom, cinnamon, cloves, black pepper, cumin and more, weighed to the gram and blended in small batches. The finishing masala your gravies deserve.",
+      uses: "Finishing curries, biryanis, dals and kebabs." },
+    { id: "chhole-masala", name: "Chhole Masala", hindi: "Chhole Masala", category: "masala-blends", bg: "#8C2F1B", packs: "50g · 100g · 200g · 25kg bulk",
+      desc: "A dark, tangy, deeply savoury blend built for chickpeas — with anardana, amchur and roasted spices for that dhaba-style colour and punch.",
+      uses: "Chhole, chana, rajma and chana chaat." },
+    { id: "chicken-masala", name: "Chicken Masala", hindi: "Chicken Masala", category: "masala-blends", bg: "#A3400F", packs: "50g · 100g · 200g · 25kg bulk",
+      desc: "A robust, well-rounded meat masala with the right balance of heat, body and aroma — so your chicken curry tastes consistent every single time.",
+      uses: "Chicken curry, tandoori marinades and meat gravies." },
+    { id: "kitchen-king", name: "Kitchen King", hindi: "Kitchen King", category: "masala-blends", bg: "#96690D", packs: "50g · 100g · 200g · 25kg bulk",
+      desc: "The all-rounder — a balanced everyday blend that lifts any sabzi or dal with one spoon. Mild heat, big aroma, universal appeal.",
+      uses: "Mixed veg, paneer, dals and everyday cooking." },
+    { id: "chaat-masala", name: "Chaat Masala", hindi: "Chaat Masala", category: "masala-blends", bg: "#4F6226", packs: "50g · 100g · 200g · 25kg bulk",
+      desc: "Tangy, salty, funky and irresistible — amchur, black salt, cumin and hing in the ratio street vendors swear by. Sprinkle on anything.",
+      uses: "Fruit chaat, salads, raita, snacks and lemonade." },
+    { id: "pav-bhaji-masala", name: "Pav Bhaji Masala", hindi: "Pav Bhaji Masala", category: "masala-blends", bg: "#8A2E22", packs: "50g · 100g · 200g · 25kg bulk",
+      desc: "Mumbai-style bhaji flavour in a pack — a rich, buttery-spiced blend that gives mashed vegetables their signature street-side depth.",
+      uses: "Pav bhaji, masala pav, tawa pulao and veg curries." },
+];
+
+export const NAV_LINKS = [
+    { to: "/", label: "Home" },
+    { to: "/about", label: "About Us" },
+    { to: "/founder", label: "Founder" },
+    { to: "/team", label: "Team" },
+    { to: "/private-label", label: "Private Label" },
+    { to: "/quality", label: "Quality" },
+    { to: "/contact", label: "Contact" },
+];
+
+export const PRODUCT_LINKS = [
+    { to: "/products", label: "All Products" },
+    { to: "/products/whole-spices", label: "Whole Spices" },
+    { to: "/products/spice-powders", label: "Spice Powders" },
+    { to: "/products/masala-blends", label: "Masala Blends" },
+];

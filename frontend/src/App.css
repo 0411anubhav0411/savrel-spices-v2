@@ -1,0 +1,5 @@
+/* Savrel Natural Spices — page-level styles live in index.css and Tailwind classes */
+.App {
+    min-height: 100vh;
+    background: #ffffff;
+}
