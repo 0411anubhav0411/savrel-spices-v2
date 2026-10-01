@@ -16,7 +16,7 @@ export default function Founder() {
             <PageHero
                 eyebrow="Our Founder"
                 title="The man behind the masala"
-                sub="Rohit Jha founded Savrel Natural Spices to bring factory-grade discipline to a category that runs on trust."
+                sub="Rohit Jha founded Savrel Spices to bring factory-grade discipline to a category that runs on trust."
             />
 
             <section className="bg-white py-16 sm:py-20">
@@ -28,7 +28,7 @@ export default function Founder() {
                             </div>
                             <h2 className="mt-6 font-display text-2xl font-bold text-gray-900" data-testid="founder-name">Rohit Jha</h2>
                             <p className="mt-1 text-sm font-medium text-[#C8102E]">Founder & Managing Director</p>
-                            <p className="mt-1 text-xs text-gray-500">Savrel Natural Spices, Ghaziabad (U.P.)</p>
+                            <p className="mt-1 text-xs text-gray-500">Savrel Spices, Ghaziabad (U.P.)</p>
                             <div className="mt-6 border-t border-gray-100 pt-6">
                                 <a href={BRAND.phoneHref} data-testid="founder-call-link"
                                     className="text-sm font-semibold text-gray-800 hover:text-[#C8102E] transition-colors">
@@ -58,7 +58,7 @@ export default function Founder() {
                                 wasn't demand — it was discipline.
                             </p>
                             <p className="mt-4 text-base text-gray-600 leading-relaxed">
-                                Savrel Natural Spices is his answer. A factory where sourcing, cleaning, grinding
+                                Savrel Spices is his answer. A factory where sourcing, cleaning, grinding
                                 and packing all happen under one roof, to one standard, with one person accountable
                                 for the taste in every pack — him.
                             </p>
