@@ -1,5 +1,5 @@
 export const BRAND = {
-    name: "Savrel Natural Spices",
+    name: "Savrel Spices",
     tagline: "Masale Jo Swaad Banaye",
     description:
         "Manufacturer of premium Indian spices, including whole spices, powders, and masala blends. Hygienically processed and packed for bulk, wholesale, and private-label supply. Quality ingredients, consistent taste, and timely delivery across India.",
