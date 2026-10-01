@@ -20,7 +20,7 @@ export const Header = () => {
                     <Link to="/" data-testid="header-logo-link" className="flex items-center gap-3 shrink-0">
                         <img src="/assets/logo.png" alt="Savrel Natural" className="h-12 sm:h-14 w-auto" />
                         <span className="hidden md:block leading-tight">
-                            <span className="block font-display font-bold text-gray-900 text-lg">Savrel Natural</span>
+                            <span className="block font-display font-bold text-gray-900 text-lg">Savrel Spices</span>
                             <span className="block text-[11px] italic text-[#C8102E] font-medium">{BRAND.tagline}</span>
                         </span>
                     </Link>
