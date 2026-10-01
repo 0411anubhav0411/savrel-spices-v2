@@ -33,7 +33,7 @@ export default function ProductDetail() {
                         <Reveal>
                             {p.image ? (
                                 <div className="rounded-2xl bg-[#FAF6EF] border border-gray-200 p-8 sm:p-12 flex items-center justify-center">
-                                    <img src={p.image} alt={`${p.name} — Savrel Natural pack`} data-testid="product-detail-image"
+                                    <img src={p.image} alt={`${p.name} — Savrel Spices pack`} data-testid="product-detail-image"
                                         className="max-h-[420px] w-auto object-contain drop-shadow-lg" />
                                 </div>
                             ) : (
